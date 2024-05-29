@@ -1,0 +1,65 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #353842;
+}
+.input-field {
+  position: relative;
+  margin-top: 20px;
+}
+.input-field input {
+  width: 350px;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+.task-input.line-through {
+  text-decoration: line-through;
+  opacity: 40%;
+}
+
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 19px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+input:focus {
+  border: 2px solid #ffcc00;
+}
+input:focus ~ label,
+input:valid ~ label {
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 2px;
+  background: #353842;
+}
+.taskContainer{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.713), 0 6px 20px 0 rgba(0, 0, 0, 0.588);
+  text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}

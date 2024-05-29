@@ -1,0 +1,33 @@
+.social-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #333;
+    box-shadow: 10px 10px 20px #42424e,
+                -10px -10px 20px #494747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .social-icon:hover {
+    border-radius: 50%;
+  background: #333;
+  box-shadow: inset 10px 10px 20px #42424e,
+              inset -10px -10px 20px #42424e;
+  }
+  
+  
